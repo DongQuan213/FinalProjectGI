@@ -9,20 +9,15 @@
     <sprite>sprites\spr_house</sprite>
     <sprite>sprites\spr_tent</sprite>
     <sprites name="tank">
-      <sprite>sprites\spr_tank_up</sprite>
-      <sprite>sprites\spr_tank_right</sprite>
-      <sprite>sprites\spr_tank_down</sprite>
-      <sprite>sprites\spr_tank_left</sprite>
+      <sprite>sprites\spr_tank</sprite>
     </sprites>
     <sprite>sprites\spr_bullet</sprite>
-    <sprite>sprites\spr_bullet_down</sprite>
-    <sprite>sprites\spr_bullet_right</sprite>
-    <sprite>sprites\spr_bullet_left</sprite>
     <sprites name="enemy">
       <sprite>sprites\spr_enemy</sprite>
-      <sprite>sprites\spr_enemy2</sprite>
-      <sprite>sprites\sprite12</sprite>
     </sprites>
+    <sprite>sprites\spr_weapon</sprite>
+    <sprite>sprites\spr_enemy_weapon</sprite>
+    <sprite>sprites\sprite16</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -38,6 +33,9 @@
     <object>objects\obj_tent</object>
     <object>objects\obj_tank_main</object>
     <object>objects\obj_bullet</object>
+    <object>objects\obj_weapon</object>
+    <object>objects\obj_enemy</object>
+    <object>objects\obj_enemy_weapon</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\r_main</room>
